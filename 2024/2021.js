@@ -9,7 +9,7 @@ const workWithData = (data) => {
 
 	// how do we get an array of a specific property value (dog breed == Boxer, in this case)
 	const instanceIn2021 = data.filter(object => {
-        return object.incident_date && object.incident_date.includes('2021');
+        return object.incident_date && object.incident_date.includes('2024');
     });
 
     const colorMap = {
