@@ -1,0 +1,138 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: whitesmoke;
+    background-image: url(papertexture.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.homepage {
+    width: 5%;
+    margin: 3px;
+    position: absolute;
+    top: 2%;
+    left: 90%;
+    z-index: 1000;
+}
+
+.rectangle {
+    margin: 2%;
+    position: relative;
+    display: flex;
+    width: 30vw;
+    height: 20vw;
+    border: 6px solid #B51A00;
+    opacity: 0.9;
+}
+
+.topbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#year{
+    position: absolute;
+    width: 40%;
+    margin-left: 55%;
+    margin-top: 3%;
+}
+.car {
+    position: absolute;
+    opacity: 0.9;
+    width: 100%;
+    z-index: 10;
+}
+
+img {
+    width: 100%;
+}
+
+.buttons {
+    position: absolute;
+    width: 40%;
+    top: 10%;
+    margin-left: 35%;
+}
+#filter-buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.filter-button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+}
+
+#filter-count {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+
+#collection {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+    max-height: 500px;
+    margin: 3vh;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-weight: 500;
+}
+.list-data {
+    opacity: 1;
+    margin: 1vh;
+    display: flex;
+    flex-direction: row;
+    color: #fbff00;
+    background-color: var(--default-color);
+    
+}
+
+.list-data :hover {
+    background-color: #791200;
+    color: aliceblue;
+    opacity: 1;
+}
+
+.list-data-content {
+    margin: 2px;
+    max-width: 200px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #1915ff;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.list-data.is-active {
+	opacity: 1;
+}
+
+.list-data-content.is-active {
+    opacity: 1;
+  z-index: 100;
+}
+
+.is-hidden {
+	display: none;
+}

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    background-image: url(papertexture.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.rectangle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    height: 20vw;
+    border: 6px solid #B51A00;
+    opacity: 0.9;
+}
+
+.car {
+    width: 100%;
+    z-index: 10;
+}
+
+img {
+    width: 20vh;
+    margin: 3vw;
+}

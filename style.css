@@ -1,0 +1,48 @@
+@import url("https://use.typekit.net/hmt4zhf.css");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.rectangle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45vh;
+    height: 37vh;
+    border: 6px solid rgba(95, 93, 107, 1);
+}
+
+.car {
+    width: 100%;
+}
+
+.title {
+    margin-left: 10px;
+font-kerning: 140%;
+font-size:6.5vw;
+line-height: 180%;
+font-family: "rothwood", serif;
+font-weight: 900;
+font-style: normal;
+z-index: 10;
+}
+
+ h1 {
+    margin-top: 0; 
+ }
+
+a {
+    color: #B51A00;
+    text-decoration-color: #B51A00;
+}
+
+a:hover {
+    font-style: italic;
+    color: rgba(95, 93, 107, 1);
+    text-decoration-color: rgba(95, 93, 107, 1);
+}
