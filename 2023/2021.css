@@ -10,6 +10,10 @@ body {
     background-size: cover;
 }
 
+a :hover {
+    width: 10vh;
+}
+
 .homepage {
     width: 5%;
     margin: 3px;

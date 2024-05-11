@@ -5,6 +5,12 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url(papertexture.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+img {
+    width: 100%;
 }
 .rectangle {
     position: fixed;
@@ -24,10 +30,10 @@ body {
 }
 
 .title {
-    margin-left: 10px;
+margin-top: 5px;
 font-kerning: 140%;
-font-size:5.5vw;
-line-height: 190%;
+font-size: 5.5vw;
+line-height: 180%;
 font-family: "Alfa Slab One", serif;
   font-weight: 400;
   font-style: normal;
@@ -45,21 +51,31 @@ a {
 
 a:hover {
     font-style: italic;
+    transform: skew(-10deg);
     color: rgba(95, 93, 107, 1);
     text-decoration-color: rgba(95, 93, 107, 1);
 }
 
-.YearArchive {
-    width: 100%;
-    margin: 0;
+#YearArchive {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
     height: 90vh;
-    border-width: 1px;
 }
 
-.year1 {
-    width: 2vh;
+#year1 {
+    width: 20vh;
 }
 
-.year2 {
-    width: 2vh;
+#year2 {
+    width: 20vh;
+}
+
+#year3 {
+    width: 20vh;
+}
+
+#year4 {
+    width: 20vh;
 }

@@ -29,6 +29,9 @@ body {
     opacity: 0.9;
 }
 
+a :hover {
+    width: 10vh;
+}
 .topbar {
     position: relative;
     display: flex;
